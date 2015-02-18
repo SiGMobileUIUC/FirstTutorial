@@ -14,8 +14,8 @@
         android:layout_height="wrap_content"
         android:text="New Button"
         android:id="@+id/button"
-        android:layout_alignBottom="@+id/textView"
-        android:layout_alignParentEnd="true"
-        android:onClick="buttonOnClick"/>
+        android:onClick="buttonOnClick"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

@@ -41,6 +41,7 @@ public class MainActivity extends Activity {
 
     public void buttonOnClick(View view) {
         final TextView textViewToChange = (TextView) findViewById(R.id.textView);
-        textViewToChange.setText("Welcome to SiGMobile!");
+        if (textViewToChange.getText() == "Hello world!") textViewToChange.setText("Welcome to SiGMobile!");
+        else textViewToChange.setText("Hello world!");
     }
 }
